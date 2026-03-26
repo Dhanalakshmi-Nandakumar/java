@@ -1,3 +1,4 @@
+
 class A
 {
     public void show()
@@ -17,5 +18,8 @@ public class MethodOverriding {
         
               A obj=new A();
               obj.show();
+              C ob=new C();
+              System.out.println(ob.marks);
+
     }
 }
