@@ -47,12 +47,12 @@ public class blockedSynchronized {
         //static synchronized  -->class level
 
         Web obj1=new Web();
-        Web obj2=new Web();
+        
         //creating 1 thread but same object
         User object1=new User(obj1,"user1");
        
         //creating 2 thread but same object
-        User object2=new User(obj2,"user2");
+        User object2=new User(obj1,"user2");
          object1.start();
         object2.start();
 
